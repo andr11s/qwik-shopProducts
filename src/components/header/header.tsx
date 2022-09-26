@@ -14,15 +14,11 @@ export default component$(() => {
       </div>
       <ul>
         <li>
-          <a href="#"  >
-            Products
-          </a>
+          <a href="products">Products</a>
         </li>
         <li>
-          <a href="#" >
-            Users
-          </a>
-        </li> 
+          <a href="#">Users</a>
+        </li>
       </ul>
     </header>
   );
