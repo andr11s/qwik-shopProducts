@@ -1,3 +1,8 @@
+.layout__products {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+}
+
 .cards {
   width: 100%;
   max-width: 100%;
@@ -8,7 +13,8 @@
 }
 
 .card {
-  border: solid 2px var(--qwik-light-purple);
+  border: solid 4px var(--qwik-light-purple);
+  box-shadow: 0px 0px 45px -50px var(--qwik-light-purple);
   border-radius: 3px;
   padding: 0.5rem;
   background-color: #ffffff;

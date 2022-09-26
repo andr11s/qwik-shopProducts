@@ -5,13 +5,13 @@ import Header from '../components/header/header';
 export default component$(() => {
   return (
     <>
+      <Header />
       <main>
-        <Header />
         <section>
           <Slot />
         </section>
-      </main> 
-        <Footer/>
+      </main>
+      <Footer />
     </>
   );
 });

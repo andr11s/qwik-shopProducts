@@ -1,4 +1,4 @@
-import { component$ } from '@builder.io/qwik';
+import { component$, useContextProvider, useStore } from '@builder.io/qwik';
 import type { DocumentHead } from '@builder.io/qwik-city';
 import { Link } from '@builder.io/qwik-city';
 
@@ -88,10 +88,7 @@ export default component$(() => {
             <code>npm run qwik add static-node</code>
           </td>
           <td>
-            <a
-              href="https://qwik.builder.io/qwikcity/static-site-generation/overview/"
-              target="_blank"
-            >
+            <a href="https://qwik.builder.io/qwikcity/static-site-generation/overview/" target="_blank">
               Static Site Generation (SSG)
             </a>
           </td>

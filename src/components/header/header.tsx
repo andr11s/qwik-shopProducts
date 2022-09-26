@@ -1,4 +1,4 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik';
+import { component$, useContext, useContextProvider, useStore, useStylesScoped$ } from '@builder.io/qwik';
 import { QwikLogo } from '../icons/qwik';
 import styles from './header.css?inline';
 
@@ -14,7 +14,7 @@ export default component$(() => {
       </div>
       <ul>
         <li>
-          <a href="products">Products</a>
+          <a href="/products">Products</a>
         </li>
         <li>
           <a href="#">Users</a>
